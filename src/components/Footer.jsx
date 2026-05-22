@@ -15,9 +15,13 @@ export default function Footer({
         </div>
 
         <div className="footer-links">
-          <a href="#">
-            TikTok
-          </a>
+          <a href="https://www.tiktok.com/@studio.rowflow" target="_blank" rel="noreferrer">
+  TikTok
+</a>
+
+<a href="https://www.instagram.com/studio_rowflow" target="_blank" rel="noreferrer">
+  Instagram
+</a>
 
           <a href="#">
             Instagram
