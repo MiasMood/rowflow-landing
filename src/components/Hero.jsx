@@ -61,18 +61,24 @@ export default function Hero({
               {t.primaryButton}
             </button>
 
-            <div className="social-links">
- <a href="https://www.tiktok.com/@studio.rowflow" target="_blank" rel="noreferrer">
-  TikTok
-</a>
+          
+<div className="hero-socials">
+  <a
+    href="https://www.tiktok.com/@studio.rowflow"
+    target="_blank"
+    rel="noreferrer"
+  >
+    TikTok
+  </a>
 
-<a href="https://www.instagram.com/studio_rowflow" target="_blank" rel="noreferrer">
-  Instagram
-</a>
-
-  <a href="#">
+  <a
+    href="https://www.instagram.com/studio_rowflow"
+    target="_blank"
+    rel="noreferrer"
+  >
     Instagram
   </a>
+
 </div>
           </div>
         </motion.div>

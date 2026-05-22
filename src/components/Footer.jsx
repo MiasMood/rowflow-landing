@@ -23,10 +23,6 @@ export default function Footer({
   Instagram
 </a>
 
-          <a href="#">
-            Instagram
-          </a>
-
         </div>
       </div>
 
