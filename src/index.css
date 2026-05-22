@@ -890,3 +890,20 @@ body {
 .input--hidden {
   display: none !important;
 }
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-socials a {
+  color: rgba(255,255,255,0.72) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero-socials a:hover {
+  color: white !important;
+}

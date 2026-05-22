@@ -285,26 +285,3 @@
 .hero-socials a:hover {
   color: white;
 }
-.hero-buttons {
-  display: flex;
-  align-items: center;
-  gap: 28px;
-  flex-wrap: wrap;
-}
-
-.hero-socials {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.hero-socials a {
-  color: rgba(255,255,255,0.72);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.hero-socials a:hover {
-  color: white;
-}
