@@ -14,14 +14,14 @@ export default function BetaSignup({ language }) {
 
         <h2>
           {language === "fi"
-            ? "Liity ensimmäisten käyttäjien joukkoon."
-            : "Join the first group of users."}
+            ? "Seuraa kehitystä."
+            : "Follow the development."}
         </h2>
 
         <p>
           {language === "fi"
-            ? "Saat kehityspäivityksiä, ennakkopääsyn beta-versioon ja mahdollisuuden vaikuttaa Studio Rowflow’n kehitykseen."
-            : "Get development updates, early beta access and help shape the future of Studio Rowflow."}
+            ? "Kehityspäivityksiä ja ennakkopääsy beta-vaiheeseen."
+            : "Development updates and early access when the beta launches."}
         </p>
 
       <form
@@ -43,8 +43,8 @@ export default function BetaSignup({ language }) {
 
   <button type="submit">
     {language === "fi"
-      ? "Liity beta-listalle"
-      : "Join the beta"}
+      ? "Liity odotuslistalle"
+      : "Join waitlist"}
   </button>
 
   <input
