@@ -122,7 +122,7 @@ export default function FutureSection({
 
           <p>
             {language === "fi"
-              ? "Studio Rowflow kehittyy moderniksi työtilaksi neulesuunnitteluun — älykkäämpään kaavioiden suunnitteluun, sujuvampaan työskentelyyn ja helpompaan yhteistyöhön."
+              ? "Studio Rowflow kehittyy työtilaksi, joka tekee neulesuunnittelusta älykkäämpää, nopeampaa ja sujuvampaa."
               : "Studio Rowflow is evolving into a modern workspace for knitting pattern design — built around real workflows, smarter chart designing and smoother collaboration."}
           </p>
         </motion.div>
