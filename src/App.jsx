@@ -7,6 +7,7 @@ import BetaSignup from "./components/BetaSignup.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
+
   const [language, setLanguage] = useState("en");
 
   return (

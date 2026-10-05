@@ -57,9 +57,12 @@ export default function Hero({
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-button">
-              {t.primaryButton}
-            </button>
+            <a
+  href="#waitlist"
+  className="primary-button"
+>
+  {t.primaryButton}
+</a>
 
           
 <div className="hero-socials">

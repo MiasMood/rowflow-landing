@@ -7,52 +7,52 @@ export default function Features({
     language === "fi"
       ? [
           {
-            title: "No-stitch-alueet",
+            title: "Muotoiltavat kaaviot",
             text:
-              "Poista ruudukkoa helposti halutuilta alueilta ja maalaa taustaa tarpeen mukaan.",
+              "Rakenna kavennuksia, lisäyksiä ja no-stitch-alueita sisältäviä kaavioita selkeästi myös silloin, kun neuleen muoto muuttuu.",
           },
 
           {
             title: "Smart Numbering",
             text:
-              "Numerointi ymmärtää no-stitch-alueet ja laskee silmukat kerroksittain kavennukset ja lisäykset huomioiden.",
-          },
-
-          {
-            title: "Värikartat",
-            text:
-              "Luo ja tallenna omia värikarttoja, jotta suosikkivärit ja projektikohtaiset paletit pysyvät tallessa.",
+              "Seuraa kerroksia ja silmukkamääriä numeroinnilla, joka huomioi lisäykset, kavennukset ja no-stitch-alueet.",
           },
 
           {
             title: "Master Repeat",
             text:
-              "Rakenna toistuvia kuvioita nopeammin ja päivitä sama kuvio useaan kohtaan yhdestä paikasta.",
+              "Rakenna toistuvia kuvioita yhdestä master-kuviosta ja päivitä siihen perustuvia toistoja nopeasti.",
+          },
+
+          {
+            title: "Sujuva suunnittelutyötila",
+            text:
+              "Pidä symbolit, värit, paletit, projektit ja työkalut samassa selainpohjaisessa työtilassa.",
           },
         ]
       : [
           {
-            title: "No-stitch areas",
+            title: "Shaped charts",
             text:
-              "Remove grid areas easily where needed and add background color when you want a cleaner chart shape.",
+              "Build charts with increases, decreases and no-stitch areas while keeping changing garment shapes clear.",
           },
 
           {
             title: "Smart Numbering",
             text:
-              "Numbering understands no-stitch areas and calculates stitch counts row by row, including decreases and increases.",
-          },
-
-          {
-            title: "Color palettes",
-            text:
-              "Create and save your own color palettes so favorite shades and project palettes stay organized.",
+              "Follow rows and stitch counts with numbering that understands increases, decreases and no-stitch areas.",
           },
 
           {
             title: "Master Repeat",
             text:
-              "Build repeating motifs faster and update repeated sections from one master pattern.",
+              "Build repeating motifs from one master pattern and update linked repeats more efficiently.",
+          },
+
+          {
+            title: "A smoother design workspace",
+            text:
+              "Keep symbols, colors, palettes, projects and design tools together in one browser-based workspace.",
           },
         ];
 
@@ -74,14 +74,14 @@ export default function Features({
 
           <h2>
             {language === "fi"
-              ? "Moderni työtila neulesuunnitteluun."
-              : "A modern workspace for knitting chart design."}
+  ? "Neulekaaviosuunnittelua suunnittelijan näkökulmasta"
+  : "Design, preview and refine in one workspace."}
           </h2>
 
           <p>
             {language === "fi"
-              ? "Rakennettu nopeampaan, selkeämpään ja miellyttävämpään työskentelyyn."
-              : "Built for faster, cleaner and more enjoyable workflows."}
+              ? "Työkalut on rakennettu helpottamaan oikeita neulesuunnittelun tilanteita – ei vain ruutujen täyttämistä."
+              : "Tools designed around real knitting design workflows — not just filling cells in a grid."}
           </p>
         </motion.div>
 

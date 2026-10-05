@@ -7,21 +7,21 @@ export default function FutureSection({
     language === "fi"
       ? [
           {
-            title: "Smart Reader -pohja",
+            title: "Live Knit Preview",
             text:
-              "Rakennettu tukemaan selkeämpää kaavioiden lukemista ja keskittyneempää työskentelyä.",
+              "Näe kaaviosi neulepintana jo suunnitteluvaiheessa ja toista kuviota vaaka- ja pystysuunnassa.",
           },
 
           {
             title: "Smart Numbering",
             text:
-              "Numerointi ymmärtää kavennukset ja no-stitch-alueet.",
+              "Numerointi huomioi kavennukset, lisäykset ja no-stitch-alueet sekä laskee silmukkamäärät kerroksittain.",
           },
 
           {
-            title: "Omat värikartat",
+            title: "No-stitch-alueet",
             text:
-              "Luo ja tallenna omia lanka- ja värikarttoja eri projekteihin.",
+              "Poista ruudukkoa helposti halutuilta alueilta ja rakenna kaavio selkeästi tarpeen mukaan.",
           },
 
           {
@@ -29,24 +29,36 @@ export default function FutureSection({
             text:
               "Rakenna toistuvia kuvioita nopeammin ja päivitä toistot yhdestä master-kuviosta.",
           },
+
+          {
+            title: "Smart Reader",
+            text:
+              "Korosta yksi kerros kerrallaan ja keskity kaavion lukemiseen ilman ylimääräistä hälyä.",
+          },
+
+          {
+            title: "Pilvitallennus",
+            text:
+              "Tallenna projektit käyttäjäkohtaisesti ja jatka työskentelyä myöhemmin samalta tililtä.",
+          },
         ]
       : [
           {
-            title: "Smart Reader foundations",
+            title: "Live Knit Preview",
             text:
-              "Built to support cleaner chart reading and focused workflows.",
+              "See your chart as a knitted surface and repeat the pattern horizontally and vertically while you design.",
           },
 
           {
             title: "Smart Numbering",
             text:
-              "Numbering that understands shaping and no-stitch areas.",
+              "Numbering understands decreases, increases and no-stitch areas and calculates stitch counts row by row.",
           },
 
           {
-            title: "Custom color palettes",
+            title: "No-stitch areas",
             text:
-              "Create and save your own yarn and color palettes for different projects.",
+              "Remove grid areas easily where needed and keep your chart structure clear.",
           },
 
           {
@@ -54,47 +66,70 @@ export default function FutureSection({
             text:
               "Build repeating motifs faster and update repeated sections from one master pattern.",
           },
+
+          {
+            title: "Smart Reader",
+            text:
+              "Highlight one row at a time and stay focused while reading your chart.",
+          },
+
+          {
+            title: "Cloud saving",
+            text:
+              "Save projects to your account and continue working later from the same workspace.",
+          },
         ];
 
   const upcoming =
     language === "fi"
       ? [
           {
-            title: "Pilvipohjainen työtila",
+            title: "Testineulojien palaute",
             text:
-              "Projektit mukana missä tahansa.",
+              "Kehitystä jatketaan yhdessä testineulojien kanssa, jotta editori vastaa mahdollisimman hyvin oikeisiin käyttötarpeisiin.",
           },
 
           {
-            title:
-              "Yhteistyö testineulojien kanssa",
+            title: "Ohjeen taitto",
             text:
-              "Jaa kaavioita ja kerää palautetta helpommin.",
+              "Tavoitteena on yhdistää kaaviot, selitteet, tekstit ja muu ohjesisältö myöhemmin samaan selkeään taittotyökaluun.",
           },
 
           {
-            title: "Yhdistetyt työnkulut",
+            title: "Englanninkielinen editori",
             text:
-              "Rakennettu moderniin neulesuunnitteluprosessiin.",
+              "Studio Rowflow kehitetään ensin suomeksi. Englanninkielinen editori ja käyttöliittymä ovat tulossa myöhemmin.",
+          },
+
+          {
+            title: "Julkinen demo",
+            text:
+              "Rajattu selainversio, jossa Studio Rowflow’ta voi kokeilla ilman käyttäjätiliä.",
           },
         ]
       : [
           {
-            title: "Cloud workspace",
+            title: "Tester feedback",
             text:
-              "Access your projects anywhere.",
+              "Development will continue together with test knitters so the editor can better support real-world workflows.",
           },
 
           {
-            title: "Tester collaboration",
+            title: "Pattern layout",
             text:
-              "Share charts and collect feedback more easily.",
+              "The long-term goal is to bring charts, legends, text and other pattern content into one clear layout workflow.",
           },
 
           {
-            title: "Connected workflows",
+            title: "English editor",
             text:
-              "Built for modern pattern design workflows.",
+              "Studio Rowflow is currently being developed in Finnish. A full English editor and interface will follow.",
+          },
+
+          {
+            title: "Public demo",
+            text:
+              "A limited browser-based version for trying Studio Rowflow without creating an account.",
           },
         ];
 
@@ -110,20 +145,26 @@ export default function FutureSection({
         >
           <span className="section-label">
             {language === "fi"
-              ? "Rakennettu oikeisiin työnkulkuihin"
-              : "Built for real workflows"}
+              ? "Työkalut suunnittelun tueksi"
+              : "Tools built for design"}
           </span>
 
           <h2>
             {language === "fi"
-              ? "Moderni työtila neulesuunnitteluun."
-              : "Built for the way designers actually work."}
+              ? "Suunnittele, tarkista ja viimeistele samassa työtilassa."
+              : "Design, preview and refine in one workspace."}
           </h2>
 
           <p>
             {language === "fi"
-              ? "Studio Rowflow kehittyy työtilaksi, joka tekee neulesuunnittelusta älykkäämpää, nopeampaa ja sujuvampaa."
-              : "Studio Rowflow is evolving into a modern workspace for knitting pattern design — built around real workflows, smarter chart designing and smoother collaboration."}
+              ? "Studio Rowflow yhdistää kaavion rakentamisen, toistot, numeroinnin ja esikatselun yhdeksi sujuvaksi työnkuluksi."
+              : "Studio Rowflow brings chart building, repeats, numbering and visual preview into one focused workflow."}
+          </p>
+
+          <p className="future-device-note">
+            {language === "fi"
+              ? "Studio Rowflow on suunniteltu ensisijaisesti tietokoneelle ja tabletille, jotta kaikki työkalut, kaavionäkymät ja esikatselut pääsevät kunnolla oikeuksiinsa."
+              : "Studio Rowflow is designed primarily for desktop and tablet use, so its tools, chart views and previews have enough space to work at their best."}
           </p>
         </motion.div>
 
@@ -143,7 +184,6 @@ export default function FutureSection({
                   className="future-card"
                 >
                   <h3>{item.title}</h3>
-
                   <p>{item.text}</p>
                 </div>
               ))}
@@ -165,7 +205,6 @@ export default function FutureSection({
                   className="future-card"
                 >
                   <h3>{item.title}</h3>
-
                   <p>{item.text}</p>
                 </div>
               ))}
