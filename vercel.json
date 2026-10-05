@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/editor",
+      "destination": "https://row-flow-editor.vercel.app/editor"
+    },
+    {
+      "source": "/editor/:path*",
+      "destination": "https://row-flow-editor.vercel.app/editor/:path*"
+    }
+  ]
+}
