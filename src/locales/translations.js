@@ -3,10 +3,10 @@ export const translations = {
     badge: "Neulesuunnittelun uusi työtila on rakenteilla",
 
     heading:
-  "Suunnittele neulekaavioita.\nHahmota kaavio neulepintana.",
+  "Moderni neulekaavioeditori\n neuleideoiden suunnitteluun.",
 
     description:
-      "Studio Rowflow on moderni työtila neuleiden suunnitteluun – kaavioista älykkäisiin työkaluihin ja visuaaliseen esikatseluun. Kehitys on käynnissä.",
+      "Suunnittele neulekaavioita Smart Numberingin, toistojen, Live Knit Preview’n ja muiden neulesuunnitteluun rakennettujen työkalujen avulla.",
 
     primaryButton: "Ilmoita, kun demo avautuu",
 
@@ -17,10 +17,10 @@ export const translations = {
     badge: "A new workspace for knitwear design is in development",
 
     heading:
-      "Design knitting charts.\nSee your idea come to life.",
+      "A modern knitting chart editor for your own knitting ideas.",
 
     description:
-      "Studio Rowflow is a modern workspace for knitwear design – from charts to smart design tools and visual knit previews. Currently in development.",
+      "Design knitting charts with Smart Numbering, repeats, Live Knit Preview and tools built for a smoother creative workflow.",
 
     primaryButton: "Notify me when the demo launches",
 
