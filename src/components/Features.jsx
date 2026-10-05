@@ -74,7 +74,7 @@ export default function Features({
 
           <h2>
             {language === "fi"
-  ? "Neulekaaviosuunnittelua suunnittelijan näkökulmasta"
+  ? "Suunnittele, kokeile ja viimeistele"
   : "Design, preview and refine in one workspace."}
           </h2>
 
