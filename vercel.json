@@ -7,6 +7,14 @@
     {
       "source": "/editor/:path*",
       "destination": "https://row-flow-editor.vercel.app/editor/:path*"
+    },
+    {
+      "source": "/account",
+      "destination": "https://row-flow-editor.vercel.app/account"
+    },
+    {
+      "source": "/account/:path*",
+      "destination": "https://row-flow-editor.vercel.app/account/:path*"
     }
   ]
 }
